@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Mo' sans-serif;
+}
+
+#navFirst{
+    /* display: flex; */
+    margin: 25px 40px;
+    justify-content:center;
+}
+
+#navbarMonstera{
+   display: flex;
+   margin-top: 30px;
+   /* border:  2px solid black; */
+   margin-bottom: 40px;
+   
+}
+
+#navMid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+#navMid div h4:hover{
+   font-size: 30px;
+   transition: 0.4s;
+}
+
+#navMid div{
+ margin: 40px 20px;
+ cursor: pointer;
+}
+
+#navEnd{
+    display: flex;
+    width: 230px;
+    justify-content: space-around;
+    margin-left: 45px;
+    margin-top: -5px;
+  }
+
+#navEnd div{
+    margin: 40px 20px;
+}
+
+#midWhole {
+    height: 100vh;
+    background-image: url('./assets/flower_Cut.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:  500px 100vh;
+    display: flex;
+
+}
+
+#monstera{
+    font-size: 150px;
+    padding-top: 150px;
+    padding-left: 90px;
+}
+#monstera-small{
+    font-size: 25px;
+    width: 80%;
+    padding-left: 90px;
+    /* border: 2px solid black; */
+    padding: 30px 100px;
+
+}
+
+#midWholePart13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 1000px; */
+    /* border: 2px solid black; */
+    margin-left: 70px;
+}
+
+.content{
+    /* border: 2px solid black; */
+    text-align: left;
+    padding: 20px 20px;
+    margin-top: -80px;
+    margin-left: 60px;
+}
+.content-feeding{
+    /* border: 2px solid black; */
+    text-align: left;
+    padding: 20px 20px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+midWholePart13Parts{
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+#midWholePart121 button{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 90px;
+  padding: 15px 40px;
+  font-size: 20px;border: none;
+  background-color: #466D50;
+  border-radius: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
